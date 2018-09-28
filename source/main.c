@@ -23,7 +23,7 @@ int main(int argc, char **argv)
     
     // row, col starting at 1
     printf("\x1b[8;13HInstructions:");
-    printf("\x1b[10;13HColor (L/R): ");
+    printf("\x1b[10;13HColor (</>): ");
     printf("\x1b[12;13HFlash screen (A)");
     
     printf("\x1b[28;12H\x1b[33mEpilepsy warning!!");

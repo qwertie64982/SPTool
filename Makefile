@@ -27,12 +27,17 @@ include $(DEVKITARM)/3ds_rules
 #     - icon.png
 #     - <libctru folder>/default_icon.png
 #---------------------------------------------------------------------------------
-TARGET		:=	$(notdir $(CURDIR))
-BUILD		:=	build
-SOURCES		:=	source
-DATA		:=	data
-INCLUDES	:=	include
-#ROMFS		:=	romfs
+TARGET	    	:=	$(notdir $(CURDIR))
+BUILD	    	:=	build
+SOURCES	    	:=	source
+DATA	    	:=	data
+INCLUDES    	:=	include
+#ROMFS  		:=	romfs
+
+APP_TITLE       := SPTool
+APP_DESCRIPTION := Diagnose and free stuck pixels
+APP_AUTHOR      := Qwertie64982
+ICON            := icon.png
 
 #---------------------------------------------------------------------------------
 # options for code generation
